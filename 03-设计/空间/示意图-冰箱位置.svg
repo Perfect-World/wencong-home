@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" font-family="PingFang SC, Helvetica, Arial, sans-serif">
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#ef4444" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="700" fill="#ffffff"/>
+  <text x="450" y="34" text-anchor="middle" font-size="21" font-weight="700" fill="#1f2937">厨房冰箱/灶台位置示意（冰箱靠烟道东侧）</text>
+  <text x="450" y="58" text-anchor="middle" font-size="12" fill="#6b7280">厨房 1990×3150；烟道 460×520；冰箱 833×600 东侧、南侧齐烟道、门朝东；AK7 灶 800，偏南：冰箱侧 500、水槽侧约 420；通道 930</text>
+
+  <!-- North arrow -->
+  <g transform="translate(55,100)">
+    <line x1="0" y1="40" x2="0" y2="2" stroke="#374151" stroke-width="3"/>
+    <polygon points="0,-12 -8,6 8,6" fill="#374151"/>
+    <text x="0" y="60" text-anchor="middle" font-size="14" fill="#374151">北</text>
+  </g>
+
+  <!-- Kitchen outline 1990x3150 -->
+  <rect x="150" y="100" width="318" height="504" fill="#fbfbfb" stroke="#374151" stroke-width="6"/>
+
+  <!-- Kitchen north window -->
+  <rect x="250" y="96" width="180" height="8" fill="#4a90d9"/>
+  <text x="340" y="86" text-anchor="middle" font-size="11" fill="#2563eb">厨房北窗（不做吊柜）</text>
+
+  <!-- West wall -->
+  <rect x="146" y="100" width="8" height="504" fill="#9ca3af"/>
+  <text x="128" y="340" text-anchor="middle" font-size="11" fill="#4b5563" transform="rotate(-90 128 340)">西墙 / 北次卫</text>
+
+  <!-- North counter + sink -->
+  <rect x="154" y="104" width="310" height="92" fill="#efe3cf" stroke="#c4b295" stroke-width="2"/>
+  <rect x="200" y="118" width="112" height="72" rx="4" fill="#ffffff" stroke="#9ca3af" stroke-width="2"/>
+  <text x="256" y="158" text-anchor="middle" font-size="11" fill="#6b7280">水槽 700（北窗）</text>
+  <text x="400" y="185" text-anchor="middle" font-size="10" fill="#6b5b45">北侧台面 1990×600</text>
+
+  <!-- West counter 1720x600 -->
+  <rect x="154" y="196" width="92" height="275" fill="#efe3cf" stroke="#c4b295" stroke-width="2"/>
+  <!-- Cooktop AK7 800x450, 500 from fridge / 420 from sink counter -->
+  <rect x="160" y="263" width="72" height="128" rx="3" fill="#d1d5db" stroke="#6b7280" stroke-width="2"/>
+  <text x="196" y="320" text-anchor="middle" font-size="10" fill="#374151">2眼灶 800×450</text>
+  <text x="196" y="336" text-anchor="middle" font-size="9" fill="#374151">美的 AK7</text>
+  <text x="270" y="220" font-size="10" fill="#6b5b45">西侧台面 1720×600</text>
+  <text x="270" y="236" font-size="9" fill="#b45309">水槽侧约 420</text>
+  <text x="160" y="410" font-size="9" fill="#6b7280">油烟机在灶正上方（AK10）</text>
+
+  <!-- Niche 460x310 above flue, west of fridge -->
+  <rect x="150" y="471" width="74" height="50" fill="#f3f4f6" stroke="#9ca3af" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="187" y="499" text-anchor="middle" font-size="8" fill="#6b7280">niche 460×310</text>
+
+  <!-- Flue 460x520 SW -->
+  <rect x="150" y="521" width="74" height="83" fill="#e5e7eb" stroke="#ef4444" stroke-width="3" stroke-dasharray="5,3"/>
+  <rect x="150" y="521" width="74" height="83" fill="url(#hatch)" opacity="0.35"/>
+  <text x="187" y="550" text-anchor="middle" font-size="9" fill="#b91c1c" font-weight="700">烟道</text>
+  <text x="187" y="564" text-anchor="middle" font-size="8" fill="#b91c1c">460×520</text>
+  <text x="187" y="578" text-anchor="middle" font-size="8" fill="#b91c1c">不可拆</text>
+  <text x="60" y="540" font-size="10" fill="#b91c1c" font-weight="700">原冰箱位</text>
+  <text x="60" y="555" font-size="10" fill="#b91c1c">= 烟道</text>
+  <text x="60" y="580" font-size="9" fill="#b91c1c">检修口现场确认，不挡</text>
+  <line x1="120" y1="548" x2="148" y2="555" stroke="#b91c1c" stroke-width="1.5" stroke-dasharray="3,2"/>
+
+  <!-- Fridge 830x600 east of flue, south aligned -->
+  <rect x="224" y="471" width="96" height="133" fill="#1f2937" stroke="#111827" stroke-width="2"/>
+  <text x="272" y="520" text-anchor="middle" font-size="10" fill="#ffffff">冰箱</text>
+  <text x="272" y="536" text-anchor="middle" font-size="9" fill="#ffffff">833×600</text>
+  <text x="380" y="520" font-size="10" fill="#111827">门朝东</text>
+  <text x="380" y="536" font-size="10" fill="#111827">南侧齐烟道</text>
+  <text x="380" y="552" font-size="10" fill="#111827">裸露</text>
+  <text x="380" y="568" font-size="9" fill="#6b7280">法式双开 90° 限位</text>
+  <text x="224" y="640" font-size="9" fill="#6b7280">南侧洞洞板 20-30mm</text>
+  <!-- Door swing -->
+  <path d="M320,490 Q370,490 370,545" fill="none" stroke="#111827" stroke-width="2" stroke-dasharray="5,4"/>
+
+  <!-- Walkway 930 -->
+  <line x1="320" y1="620" x2="468" y2="620" stroke="#111827" stroke-width="1.5"/>
+  <line x1="320" y1="610" x2="320" y2="630" stroke="#111827" stroke-width="1.5"/>
+  <line x1="468" y1="610" x2="468" y2="630" stroke="#111827" stroke-width="1.5"/>
+  <text x="394" y="614" text-anchor="middle" font-size="11" fill="#111827">通道 930（≥900）</text>
+
+  <!-- 1720 / 960 dimensions -->
+  <line x1="260" y1="196" x2="260" y2="471" stroke="#b45309" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <text x="268" y="300" font-size="10" fill="#b45309">1720（冰箱-水槽台面）</text>
+  <text x="268" y="430" font-size="10" fill="#b45309">灶-冰箱 500</text>
+  <text x="268" y="446" font-size="9" fill="#b45309">500&lt;规范 600（高于底线 300）</text>
+  <text x="268" y="462" font-size="9" fill="#b45309">按 600：灶北移 100，水槽侧 320</text>
+
+  <!-- Open sides -->
+  <line x1="468" y1="110" x2="468" y2="595" stroke="#9ca3af" stroke-width="2" stroke-dasharray="8,6"/>
+  <text x="480" y="310" font-size="11" fill="#6b7280">东侧全开放</text>
+  <text x="480" y="326" font-size="11" fill="#6b7280">不设门/推拉门</text>
+  <line x1="320" y1="604" x2="460" y2="604" stroke="#9ca3af" stroke-width="2" stroke-dasharray="8,6"/>
+  <text x="390" y="660" text-anchor="middle" font-size="11" fill="#6b7280">南侧全开放（烟道/冰箱除外）</text>
+  <text x="309" y="682" text-anchor="middle" font-size="11" fill="#374151">厨房宽 1990</text>
+
+  <!-- Dining -->
+  <rect x="500" y="96" width="220" height="8" fill="#4a90d9"/>
+  <text x="610" y="86" text-anchor="middle" font-size="11" fill="#2563eb">餐厅北侧落地窗（不被冰箱挡）</text>
+  <rect x="520" y="430" width="180" height="100" rx="8" fill="#f3ecdf" stroke="#c4b295" stroke-width="2"/>
+  <text x="610" y="485" text-anchor="middle" font-size="12" fill="#6b5b45">餐桌（留 ≥900）</text>
+  <rect x="744" y="250" width="72" height="310" fill="#f5f0e8" stroke="#c4b295" stroke-width="2"/>
+  <text x="744" y="240" text-anchor="start" font-size="10" fill="#6b5b45">餐边柜 450 深（不放冰箱）</text>
+  <text x="700" y="690" font-size="9" fill="#9ca3af">南侧玄关入口（避开）</text>
+
+  <!-- Kitchen depth -->
+  <text x="700" y="300" font-size="11" fill="#374151" transform="rotate(90 700 300)">厨房深 3150</text>
+
+  <!-- Notes -->
+  <text x="500" y="570" font-size="10" fill="#6b7280">厨房宽 1990 = 烟道 460 + 冰箱深 600 + 通道 930</text>
+  <text x="500" y="588" font-size="10" fill="#6b7280">厨房深 3150 = 冰箱 833 + 净空 1717（约1720） + 水槽台面 600</text>
+  <text x="500" y="606" font-size="10" fill="#6b7280">冰箱 833×600，南侧齐烟道、门朝东、裸露</text>
+  <text x="500" y="624" font-size="10" fill="#b45309">美的 AK7 灶 800×450×135，偏南；灶-冰箱 500、水槽侧约 420</text>
+  <text x="500" y="642" font-size="10" fill="#b45309">500&lt;规范 600（高于底线 300）；按 600 灶北移 100</text>
+  <text x="500" y="660" font-size="10" fill="#6b7280">油烟机在灶正上方（西墙，AK10）；台面开孔按说明书</text>
+  <text x="500" y="678" font-size="10" fill="#b91c1c">烟道 460×520 不可拆；背靠烟道留 50-100 缝</text>
+  <text x="500" y="696" font-size="9" fill="#6b7280">示意，不按比例</text>
+</svg>

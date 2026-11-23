@@ -1,0 +1,269 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" font-family="PingFang SC, Helvetica, Arial, sans-serif">
+  <defs>
+    <pattern id="flueHatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="7" stroke="#ef4444" stroke-width="2"/>
+    </pattern>
+    <pattern id="woodLines" width="6" height="6" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="6" y2="0" stroke="#c9ae8e" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="900" fill="#fffdf9"/>
+  <text x="600" y="32" text-anchor="middle" font-size="21" font-weight="700" fill="#1f2937">户型示意图（图面方向：上=南，下=北，右=西，左=东）</text>
+  <text x="600" y="52" text-anchor="middle" font-size="11" fill="#6b7280">依据：兰亭序135.png / 墙体定位图 / 立面索引图；示意不按比例，尺寸以现场复尺为准</text>
+
+  <!-- compass -->
+  <g transform="translate(50,82)">
+    <line x1="0" y1="24" x2="0" y2="2" stroke="#374151" stroke-width="2"/>
+    <polygon points="0,-6 -5,5 5,5" fill="#374151"/>
+    <text x="0" y="40" text-anchor="middle" font-size="11" fill="#374151">上=南</text>
+    <text x="0" y="55" text-anchor="middle" font-size="9" fill="#6b7280">实际北在下</text>
+  </g>
+
+  <!-- legend -->
+  <g transform="translate(150,74)" font-size="9" fill="#4b5563">
+    <rect x="0" y="0" width="16" height="9" fill="#6b7280"/>
+    <text x="21" y="8">剪力墙/柱</text>
+    <line x1="100" y1="4" x2="128" y2="4" stroke="#4a90d9" stroke-width="5"/>
+    <text x="133" y="8">窗</text>
+    <line x1="165" y1="4" x2="193" y2="4" stroke="#9ca3af" stroke-width="2" stroke-dasharray="5,4"/>
+    <text x="198" y="8">开放/梁</text>
+    <rect x="260" y="0" width="16" height="9" fill="#efe3cf" stroke="#c4b295"/>
+    <text x="281" y="8">柜体</text>
+    <rect x="330" y="0" width="9" height="9" fill="#1f2937"/>
+    <text x="344" y="8">设备</text>
+  </g>
+
+  <!-- dimensions -->
+  <g stroke="#6b7280" stroke-width="1" fill="#374151" font-size="10">
+    <line x1="100" y1="102" x2="925" y2="102"/>
+    <line x1="100" y1="97" x2="100" y2="107"/>
+    <line x1="925" y1="97" x2="925" y2="107"/>
+    <text x="512" y="98" text-anchor="middle">16510</text>
+    <line x1="73" y1="120" x2="73" y2="608"/>
+    <text x="67" y="364" text-anchor="middle" transform="rotate(-90 67 364)">9765</text>
+    <line x1="950" y1="120" x2="950" y2="510"/>
+    <text x="960" y="315" text-anchor="middle" transform="rotate(90 960 315)">7801</text>
+  </g>
+
+  <!-- unit outline: notch top-centre-right, main bath bay top-right, step bottom-right -->
+  <path d="M100,120 L575,120 L575,188 L657,188 L657,120 L821,120 L821,195 L897,195 L897,307 L925,307 L925,510 L780,510 L780,608 L100,608 Z" fill="#fffaf2" stroke="#374151" stroke-width="6"/>
+
+  <!-- room fills -->
+  <rect x="100" y="120" width="149" height="172" fill="#f7f1e7" stroke="#6b7280" stroke-width="2"/>
+  <rect x="100" y="292" width="93" height="72" fill="#eef4f7" stroke="#6b7280" stroke-width="2"/>
+  <rect x="100" y="364" width="93" height="97" fill="#f5f1ea" stroke="#6b7280" stroke-width="2"/>
+  <rect x="193" y="364" width="56" height="97" fill="#fffaf2" stroke="#6b7280" stroke-width="2"/>
+  <rect x="249" y="120" width="408" height="332" fill="#fffaf2" stroke="#6b7280" stroke-width="2"/>
+  <rect x="308" y="452" width="134" height="156" fill="#f7f1e7" stroke="#6b7280" stroke-width="2"/>
+  <rect x="442" y="452" width="98" height="156" fill="#f5efe2" stroke="#6b7280" stroke-width="2"/>
+  <rect x="541" y="480" width="89" height="128" fill="#eef4f7" stroke="#6b7280" stroke-width="2"/>
+  <rect x="630" y="480" width="150" height="128" fill="#f7f1e7" stroke="#6b7280" stroke-width="2"/>
+  <rect x="657" y="120" width="163" height="179" fill="#f7f1e7" stroke="#6b7280" stroke-width="2"/>
+  <rect x="821" y="195" width="76" height="112" fill="#eef4f7" stroke="#6b7280" stroke-width="2"/>
+  <rect x="780" y="299" width="145" height="211" fill="#f0e8da" stroke="#6b7280" stroke-width="2"/>
+  <rect x="657" y="299" width="123" height="181" fill="#fffaf2" stroke="#9ca3af" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="100" y="461" width="149" height="147" fill="#f3f4f6" stroke="#9ca3af" stroke-width="2" stroke-dasharray="5,4"/>
+
+  <!-- windows -->
+  <g stroke="#4a90d9" stroke-width="5" stroke-linecap="square">
+    <line x1="125" y1="120" x2="225" y2="120"/>
+    <line x1="250" y1="120" x2="575" y2="120"/>
+    <line x1="675" y1="120" x2="800" y2="120"/>
+    <line x1="830" y1="195" x2="890" y2="195"/>
+    <line x1="897" y1="210" x2="897" y2="300"/>
+    <line x1="925" y1="330" x2="925" y2="495"/>
+    <line x1="320" y1="608" x2="430" y2="608"/>
+    <line x1="450" y1="608" x2="535" y2="608"/>
+    <line x1="545" y1="608" x2="620" y2="608"/>
+    <line x1="640" y1="608" x2="770" y2="608"/>
+    <line x1="790" y1="510" x2="915" y2="510"/>
+    <line x1="100" y1="320" x2="100" y2="350" stroke-width="4"/>
+  </g>
+
+  <!-- structural walls / columns -->
+  <g fill="#6b7280">
+    <rect x="245" y="120" width="8" height="172"/>
+    <rect x="657" y="120" width="34" height="40"/>
+    <rect x="657" y="295" width="164" height="8"/>
+    <rect x="776" y="299" width="8" height="211"/>
+    <rect x="626" y="480" width="8" height="128"/>
+    <rect x="537" y="480" width="8" height="128"/>
+  </g>
+  <g fill="#9ca3af">
+    <rect x="100" y="288" width="93" height="8"/>
+    <rect x="189" y="292" width="8" height="72"/>
+    <rect x="100" y="360" width="93" height="8"/>
+    <rect x="817" y="195" width="8" height="112"/>
+    <rect x="821" y="303" width="76" height="8"/>
+  </g>
+
+  <!-- kitchen: flue / fridge / counter / cooktop / sink -->
+  <rect x="518" y="452" width="24" height="26" fill="#e5e7eb" stroke="#ef4444" stroke-width="2" stroke-dasharray="4,2"/>
+  <rect x="518" y="452" width="24" height="26" fill="url(#flueHatch)" opacity="0.4"/>
+  <text x="530" y="468" text-anchor="middle" font-size="7" fill="#b91c1c">烟道</text>
+  <rect x="488" y="452" width="30" height="42" fill="#1f2937" stroke="#111827"/>
+  <text x="503" y="477" text-anchor="middle" font-size="7" fill="#ffffff">冰箱</text>
+  <rect x="442" y="452" width="76" height="40" fill="#efe3cf" stroke="#c4b295"/>
+  <rect x="442" y="492" width="25" height="88" fill="#efe3cf" stroke="#c4b295"/>
+  <rect x="518" y="505" width="24" height="40" fill="#9ca3af" stroke="#6b7280"/>
+  <rect x="465" y="580" width="50" height="25" fill="#e5e7eb" stroke="#9ca3af"/>
+  <text x="530" y="500" font-size="7" fill="#6b5b45">灶</text>
+  <text x="490" y="596" font-size="7" fill="#6b7280">水槽</text>
+
+  <!-- balcony / curtain / laundry -->
+  <line x1="250" y1="150" x2="575" y2="150" stroke="#9ca3af" stroke-width="2" stroke-dasharray="6,4"/>
+  <rect x="260" y="125" width="35" height="20" fill="#e5e7eb" stroke="#9ca3af"/>
+  <text x="277" y="138" text-anchor="middle" font-size="7" fill="#6b7280">洗烘</text>
+  <text x="520" y="140" text-anchor="middle" font-size="9" fill="#6b7280">晾晒</text>
+
+  <!-- south bedroom -->
+  <rect x="115" y="145" width="75" height="90" rx="5" fill="#e7ded0" stroke="#b8a88a"/>
+  <rect x="120" y="150" width="18" height="36" rx="3" fill="#ffffff" stroke="#c4b295"/>
+  <rect x="120" y="195" width="18" height="32" rx="3" fill="#ffffff" stroke="#c4b295"/>
+  <rect x="110" y="240" width="130" height="25" fill="url(#woodLines)" stroke="#b8a88a"/>
+  <text x="152" y="190" text-anchor="middle" font-size="8" fill="#6b5b45">床</text>
+
+  <!-- south bath -->
+  <rect x="110" y="305" width="18" height="25" rx="4" fill="#ffffff" stroke="#9ca3af"/>
+  <rect x="140" y="300" width="35" height="35" fill="#dbeafe" stroke="#9ca3af"/>
+  <rect x="110" y="338" width="40" height="16" fill="#ffffff" stroke="#9ca3af"/>
+
+  <!-- elevator / storage furniture -->
+  <rect x="110" y="500" width="65" height="18" fill="url(#woodLines)" stroke="#b8a88a"/>
+  <rect x="200" y="555" width="35" height="35" fill="#d1d5db" stroke="#6b7280"/>
+  <text x="217" y="577" text-anchor="middle" font-size="7" fill="#374151">外机</text>
+  <line x1="160" y1="485" x2="160" y2="466" stroke="#dc2626" stroke-width="2"/>
+  <polygon points="160,461 155,470 165,470" fill="#dc2626"/>
+  <text x="170" y="482" font-size="8" fill="#dc2626">入户</text>
+
+  <!-- living / study furniture -->
+  <rect x="325" y="320" width="125" height="35" rx="9" fill="#1f2937" stroke="#111827"/>
+  <rect x="330" y="324" width="26" height="27" rx="7" fill="#374151"/>
+  <rect x="418" y="324" width="26" height="27" rx="7" fill="#374151"/>
+  <rect x="270" y="325" width="11" height="30" fill="#111827"/>
+  <line x1="276" y1="355" x2="276" y2="368" stroke="#111827" stroke-width="3"/>
+  <rect x="360" y="370" width="48" height="18" rx="4" fill="#c9ae8e" stroke="#8b6f4e"/>
+  <rect x="580" y="210" width="48" height="120" fill="#8b5e3c" stroke="#5f3f28"/>
+  <text x="604" y="275" text-anchor="middle" font-size="7" fill="#ffffff">2.4m黑胡桃木</text>
+  <rect x="560" y="228" width="18" height="18" rx="5" fill="#374151"/>
+  <rect x="560" y="292" width="18" height="18" rx="5" fill="#374151"/>
+  <rect x="630" y="195" width="27" height="150" fill="#f5f0e8" stroke="#c4b295"/>
+  <g stroke="#d6c8b8" stroke-width="1">
+    <line x1="639" y1="200" x2="639" y2="340"/>
+    <line x1="648" y1="200" x2="648" y2="340"/>
+  </g>
+  <text x="643" y="188" text-anchor="middle" font-size="7" fill="#6b5b45">整排平板柜</text>
+
+  <!-- dining -->
+  <rect x="330" y="490" width="75" height="45" rx="4" fill="#c9ae8e" stroke="#8b6f4e"/>
+  <rect x="338" y="482" width="14" height="8" fill="#9ca3af"/>
+  <rect x="383" y="482" width="14" height="8" fill="#9ca3af"/>
+  <rect x="338" y="535" width="14" height="8" fill="#9ca3af"/>
+  <rect x="383" y="535" width="14" height="8" fill="#9ca3af"/>
+  <rect x="308" y="475" width="18" height="85" fill="url(#woodLines)" stroke="#c4b295"/>
+
+  <!-- north bath -->
+  <ellipse cx="565" cy="545" rx="10" ry="14" fill="#ffffff" stroke="#9ca3af"/>
+  <rect x="585" y="510" width="30" height="55" fill="#dbeafe" stroke="#9ca3af"/>
+  <rect x="545" y="510" width="18" height="30" fill="#ffffff" stroke="#9ca3af"/>
+
+  <!-- north bedroom -->
+  <rect x="650" y="510" width="85" height="70" rx="5" fill="#e7ded0" stroke="#b8a88a"/>
+  <rect x="655" y="515" width="16" height="22" fill="#ffffff" stroke="#c4b295"/>
+  <rect x="750" y="500" width="25" height="95" fill="url(#woodLines)" stroke="#b8a88a"/>
+  <text x="690" y="555" text-anchor="middle" font-size="8" fill="#6b5b45">床</text>
+
+  <!-- master bed + wardrobes -->
+  <rect x="690" y="160" width="100" height="100" rx="6" fill="#e7ded0" stroke="#b8a88a"/>
+  <rect x="695" y="165" width="18" height="35" rx="3" fill="#ffffff" stroke="#c4b295"/>
+  <rect x="695" y="210" width="18" height="35" rx="3" fill="#ffffff" stroke="#c4b295"/>
+  <rect x="660" y="150" width="28" height="140" fill="url(#woodLines)" stroke="#b8a88a"/>
+  <rect x="795" y="210" width="25" height="85" fill="url(#woodLines)" stroke="#b8a88a"/>
+  <text x="740" y="280" text-anchor="middle" font-size="8" fill="#6b5b45">主卧床</text>
+
+  <!-- master bath -->
+  <rect x="830" y="205" width="28" height="35" fill="#dbeafe" stroke="#9ca3af"/>
+  <ellipse cx="875" cy="235" rx="10" ry="14" fill="#ffffff" stroke="#9ca3af"/>
+  <rect x="830" y="270" width="30" height="22" fill="#ffffff" stroke="#9ca3af"/>
+
+  <!-- closet I-shaped wardrobes -->
+  <rect x="790" y="310" width="125" height="18" fill="url(#woodLines)" stroke="#b8a88a"/>
+  <rect x="790" y="480" width="125" height="18" fill="url(#woodLines)" stroke="#b8a88a"/>
+  <rect x="790" y="310" width="18" height="188" fill="url(#woodLines)" stroke="#b8a88a"/>
+  <rect x="897" y="310" width="18" height="188" fill="url(#woodLines)" stroke="#b8a88a"/>
+
+  <!-- doors / openings -->
+  <g stroke="#374151" stroke-width="1.5" fill="none">
+    <path d="M140,461 A40,40 0 0,0 180,421"/>
+    <path d="M249,220 A40,40 0 0,1 209,260"/>
+    <path d="M150,292 A35,35 0 0,0 185,327"/>
+    <path d="M657,245 A35,35 0 0,1 692,280"/>
+    <path d="M821,250 A35,35 0 0,1 856,285"/>
+    <path d="M650,480 A35,35 0 0,0 615,515"/>
+    <path d="M555,480 A35,35 0 0,1 590,515"/>
+  </g>
+  <g fill="#ffffff">
+    <rect x="140" y="457" width="40" height="8"/>
+    <rect x="245" y="220" width="8" height="40"/>
+    <rect x="150" y="288" width="35" height="8"/>
+    <rect x="657" y="245" width="8" height="35"/>
+    <rect x="821" y="250" width="35" height="8"/>
+    <rect x="650" y="476" width="35" height="8"/>
+    <rect x="555" y="476" width="35" height="8"/>
+    <rect x="740" y="295" width="55" height="8"/>
+  </g>
+
+  <!-- beams / open divisions -->
+  <g stroke="#9ca3af" stroke-width="2" stroke-dasharray="7,5">
+    <line x1="550" y1="150" x2="550" y2="452"/>
+    <line x1="250" y1="300" x2="657" y2="300"/>
+    <line x1="657" y1="300" x2="821" y2="300"/>
+    <line x1="442" y1="452" x2="442" y2="608"/>
+  </g>
+  <text x="550" y="290" font-size="8" fill="#6b7280">梁/分界</text>
+  <text x="615" y="176" text-anchor="middle" font-size="8" fill="#9ca3af">凹口/窗（现场确认）</text>
+  <text x="205" y="340" font-size="7" fill="#9ca3af">原门封堵</text>
+
+  <!-- room labels -->
+  <g fill="#1f2937" font-weight="600">
+    <text x="180" y="195" text-anchor="middle" font-size="12">南次卧</text>
+    <text x="180" y="209" text-anchor="middle" font-size="9" fill="#6b7280">11.99㎡</text>
+    <text x="146" y="330" text-anchor="middle" font-size="10">南次卫</text>
+    <text x="146" y="343" text-anchor="middle" font-size="8" fill="#6b7280">5.05㎡</text>
+    <text x="146" y="420" text-anchor="middle" font-size="10">门斗</text>
+    <text x="220" y="420" text-anchor="middle" font-size="9">玄关/过道</text>
+    <text x="180" y="520" text-anchor="middle" font-size="9" fill="#6b7280">电梯厅/储物间</text>
+    <text x="180" y="533" text-anchor="middle" font-size="8" fill="#9ca3af">（套外）</text>
+    <text x="420" y="210" text-anchor="middle" font-size="14">客餐厅</text>
+    <text x="420" y="225" text-anchor="middle" font-size="9" fill="#6b7280">73.78㎡</text>
+    <text x="380" y="305" text-anchor="middle" font-size="10">客厅</text>
+    <text x="600" y="205" text-anchor="middle" font-size="10">书房</text>
+    <text x="375" y="520" text-anchor="middle" font-size="10">餐厅</text>
+    <text x="491" y="520" text-anchor="middle" font-size="10">厨房</text>
+    <text x="491" y="533" text-anchor="middle" font-size="7" fill="#6b7280">1990×3150</text>
+    <text x="585" y="520" text-anchor="middle" font-size="9">北次卫</text>
+    <text x="705" y="550" text-anchor="middle" font-size="10">北次卧</text>
+    <text x="705" y="563" text-anchor="middle" font-size="8" fill="#6b7280">8.73㎡</text>
+    <text x="850" y="400" text-anchor="middle" font-size="10">衣帽间</text>
+    <text x="740" y="190" text-anchor="middle" font-size="12">主卧</text>
+    <text x="740" y="204" text-anchor="middle" font-size="9" fill="#6b7280">27.34㎡（套）</text>
+    <text x="860" y="230" text-anchor="middle" font-size="9">主卫</text>
+    <text x="860" y="242" text-anchor="middle" font-size="7" fill="#6b7280">4.57㎡</text>
+    <text x="410" y="138" text-anchor="middle" font-size="8" fill="#2563eb">阳台（与客厅一体，落地窗）</text>
+    <text x="720" y="375" text-anchor="middle" font-size="8" fill="#6b7280">主卧过道</text>
+  </g>
+
+  <!-- notes -->
+  <g font-size="10" fill="#4b5563">
+    <text x="70" y="650" font-weight="700" fill="#1f2937">关键取舍</text>
+    <text x="70" y="668">• 客厅/书房开放：黑皮电动沙发 3m 朝东；85 寸移动电视在客厅东侧；书房 2.4m 黑胡桃木独板桌 + 两把人体工学椅；书房西侧整排到顶白色平板门柜。</text>
+    <text x="70" y="686">• 厨房：烟道 460×520；冰箱 833×600 在烟道东侧、门朝东、南侧齐烟道、裸露；AK7 灶 800×450×135；灶-冰箱 500、水槽侧约 420；通道 930（详见厨房大样）。</text>
+    <text x="70" y="704">• 餐厅：北侧落地窗；东墙餐边柜 450 深，不放冰箱；餐桌留 ≥900，不挡北窗/入口。</text>
+    <text x="70" y="722">• 阳台：与客厅一体、落地窗；窗帘装在阳台窗；东侧洗烘、西侧晾晒；储物间南侧放中央空调外机。</text>
+    <text x="70" y="740">• 南次卧 + 南次卫为套内套房（原公共门封堵）；主卧套 = 主卧 + 主卫 + 衣帽间；北次卫用蹲便器。</text>
+    <text x="70" y="758">• 入户：东侧门斗 → 玄关/过道，过道两侧为客厅/餐厅；入户不经过餐厅；鞋柜/换鞋凳在电梯厅。</text>
+    <text x="70" y="776">• 图面方向：上=南、下=北、右=西、左=东；原图 N 箭头不要直接使用；所有尺寸施工前现场复尺。</text>
+    <text x="70" y="794" fill="#9ca3af">示意不按比例；家具仅表达位置关系；厨房/主卫/北次卫细部以对应大样为准。</text>
+  </g>
+</svg>
